@@ -1,0 +1,5 @@
+.ipynb_checkpoints/
+eventDataset
+evently-key.json
+id2name
+*.csv
