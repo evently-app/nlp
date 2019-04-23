@@ -28,5 +28,5 @@ for doc in docs:
 with open(file_path, 'w') as fp:
     json.dump(data, fp)
 
-
+print(str(len(data))+" documents downloaded")
 print('Done')
