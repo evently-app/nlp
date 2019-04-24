@@ -31,5 +31,5 @@ for batched_data in batch_data(eventDatas, 499):
         count+=1
     batch.commit()
 
-
 print('Done')
+print('Uploaded '+str(len(eventDatas))+' documents')
