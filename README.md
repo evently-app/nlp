@@ -9,10 +9,11 @@
     1. Obtain firebase service key json file (**Do not put in Github, or any public place**)
     2. Run **upload2firebase.py** to upload event data to "unlabeled" collection in firestore.
 ## Tagging is done using the [tagging service](https://github.com/evently-app/tagging-app)
-## Trained classification model and predict category tags for our events
+## Trained classification model and predict category & preference tags for our events
 4. Download the labeled events data from firestore
 	1. Run **downloadTrainSet.py** to download labeled events from "labeledDescriptions" collection in firestore.
 5. Train the text classification model
-	1. Run **model.ipynb**
+	1. Run **model_category.ipynb**
+	2. Run **model_preference.ipynb**
 6. Do the inference on unlabeled data
 	1. Run **Inference.ipynb**
